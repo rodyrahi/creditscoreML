@@ -11,11 +11,11 @@ Data Visulization
 
 Creating a ML model
 - Modeling
-  `columns = [  'Age'  ,  'interest_rate'    , 'Delay_from_due_date'   , 'Num_of_Delayed_Payment' , 'num_bank_accounts'  , 'num_credit_cards' , 'Outstanding_Debt'  , 'Annual_Income' ]
+  ``` 
+  columns = [  'Age'  ,  'interest_rate'    , 'Delay_from_due_date'   , 'Num_of_Delayed_Payment' , 'num_bank_accounts'  , 'num_credit_cards' , 'Outstanding_Debt'  , 'Annual_Income' ]
 
-X_train = np.array(X_train[columns])
-X_test = np.array(X_test[columns])
-`
+  X_train = np.array(X_train[columns])
+  X_test = np.array(X_test[columns]) ```
 - Using Loggistics Reggration
   - Encoding Occupation to Numerical Values for Easy use Also encoding payment_of_min_amount
   - 
