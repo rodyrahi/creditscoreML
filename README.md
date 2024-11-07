@@ -41,6 +41,6 @@ Creating a ML model
           accuracy                           0.78     14492
          macro avg       0.77      0.76      0.77     14492
       weighted avg       0.78      0.78      0.78     14492
-  `
+  
 
   
